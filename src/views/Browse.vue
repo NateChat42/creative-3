@@ -8,16 +8,16 @@
       <li class="pure-menu-item"><a @click="select('Brazil')" href="#" class="pure-menu-link">Brazil</a></li>
     </ul>
   </div>
-  <ProductList :products="products" />
+  <QuestList :quests="quests" />
 </div>
 </template>
 
 <script>
-import ProductList from "../components/ProductList.vue"
+import QuestList from "../components/QuestList.vue"
 export default {
   name: 'Browse',
   components: {
-    ProductList
+    QuestList
   },
   data() {
     return {
@@ -25,8 +25,8 @@ export default {
     }
   },
   computed: {
-    products() {
-      return this.$root.$data.products.filter(product => product.location === this.location);
+    quests() {
+      return this.$root.$data.quests.filter(quest => quest.location === this.location);
     }
   },
   methods: {

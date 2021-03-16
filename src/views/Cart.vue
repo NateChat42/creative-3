@@ -1,21 +1,21 @@
 <template>
   <div>
-    <h1 class="header" v-show="this.$root.$data.cart.length === 0">Cart is empty</h1>
+    <h1 class="header" v-show="this.$root.$data.cart.length === 0">Quest Log is empty</h1>
 
     <div class="wrapper">
-      <div class="products">
-        <div class="product" v-for="product in cartArray" :key="product.id">
+      <div class="quests">
+        <div class="quest" v-for="quest in cartArray" :key="quest.id">
           <div class="info">
-            <h1>{{ product.name }}</h1>
-            <p>{{ product.location }}</p>
+            <h1>{{ quest.name }}</h1>
+            <p>{{ quest.location }}</p>
           </div>
           <div class="image">
-            <img :src="'/images/products/' + product.image" />
+            <img :src="'/images/quests/' + quest.image" />
           </div>
           <div class="reward">
-            <h2>{{ product.reward }}</h2>
-            <button class="auto" v-on:click="removeFromCart(product)">
-              Remove from Cart
+            <h2>{{ quest.reward }}</h2>
+            <button class="auto" v-on:click="removeFromCart(quest)">
+              Remove from Quest Log
             </button>
           </div>
         </div>
@@ -36,8 +36,8 @@ export default {
     }
   },
   methods: {
-    removeFromCart(product) {
-      this.$root.$data.cart.splice(this.$root.$data.cart.indexOf(product),1);
+    removeFromCart(quest) {
+      this.$root.$data.cart.splice(this.$root.$data.cart.indexOf(quest),1);
     }
   },
 };
@@ -54,27 +54,27 @@ export default {
   justify-content: center;
 }
 
-.products {
+.quests {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.product {
+.quest {
   margin: 10px;
   margin-top: 50px;
   width: 200px;
 }
 
-.product img {
+.quest img {
   border: 2px solid #333;
   height: 250px;
   width: 200px;
   object-fit: cover;
 }
 
-.product .image {
+.quest .image {
   display: flex;
   justify-content: center;
   margin-bottom: 5px;

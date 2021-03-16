@@ -7,16 +7,16 @@
         </form>
       </div>
     </div>
-    <ProductList :products="products" />
+    <QuestList :quests="quests" />
   </div>
 </template>
 
 <script>
-import ProductList from "../components/ProductList.vue";
+import QuestList from "../components/QuestList.vue";
 export default {
   name: "Home",
   components: {
-    ProductList,
+    QuestList,
   },
   data() {
     return {
@@ -24,10 +24,10 @@ export default {
     };
   },
   computed: {
-    products() {
-      return this.$root.$data.products.filter(
-        (product) =>
-          product.name.toLowerCase().search(this.searchText.toLowerCase()) >= 0
+    quests() {
+      return this.$root.$data.quests.filter(
+        (quest) =>
+          quest.name.toLowerCase().search(this.searchText.toLowerCase()) >= 0
       );
     },
   },

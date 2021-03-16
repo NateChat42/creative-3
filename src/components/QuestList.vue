@@ -1,17 +1,17 @@
 <template>
 <div class="wrapper">
-  <div class="products">
-    <div class="product" v-for="product in products" :key="product.id">
+  <div class="quests">
+    <div class="quest" v-for="quest in quests" :key="quest.id">
       <div class="info">
-        <h1>{{product.name}}</h1>
-        <p>{{product.location}}</p>
+        <h1>{{quest.name}}</h1>
+        <p>{{quest.location}}</p>
       </div>
       <div class="image">
-        <img :src="'/images/products/'+product.image">
+        <img :src="'/images/quests/'+quest.image">
       </div>
       <div class="reward">
-        <h2>{{product.reward}}</h2>
-        <button class="auto" v-on:click="addToCart(product)">Add to Cart</button>
+        <h2>{{quest.reward}}</h2>
+        <button class="auto" v-on:click="addToCart(quest)">Add to Quest Log</button>
       </div>
     </div>
   </div>
@@ -20,13 +20,13 @@
 
 <script>
 export default {
-  name: 'ProductList',
+  name: 'QuestList',
   props: {
-    products: Array
+    quests: Array
   },
   methods: {
-      addToCart(product) {
-          this.$root.$data.cart.push(product);
+      addToCart(quest) {
+          this.$root.$data.cart.push(quest);
       }
   }
 }
@@ -39,27 +39,27 @@ export default {
   justify-content: center;
 }
 
-.products {
+.quests {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.product {
+.quest {
   margin: 10px;
   margin-top: 50px;
   width: 200px;
 }
 
-.product img {
+.quest img {
   border: 2px solid #333;
   height: 250px;
   width: 200px;
   object-fit: cover;
 }
 
-.product .image {
+.quest .image {
   display: flex;
   justify-content: center;
   margin-bottom: 5px;

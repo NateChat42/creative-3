@@ -16,7 +16,7 @@
       <router-link to="/cart">
         <div class="menu-item">
           <img src="/images/love.png">
-          <p>{{cartSize}} items</p>
+          <p>{{cartSize}} quests</p>
         </div>
       </router-link>
     </div>
