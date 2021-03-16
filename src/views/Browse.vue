@@ -21,17 +21,17 @@ export default {
   },
   data() {
     return {
-      country: '',
+      location: '',
     }
   },
   computed: {
     products() {
-      return this.$root.$data.products.filter(product => product.country === this.country);
+      return this.$root.$data.products.filter(product => product.location === this.location);
     }
   },
   methods: {
-    select(country) {
-      this.country = country;
+    select(location) {
+      this.location = location;
     }
   }
 }

@@ -4,13 +4,13 @@
     <div class="product" v-for="product in products" :key="product.id">
       <div class="info">
         <h1>{{product.name}}</h1>
-        <p>{{product.country}}</p>
+        <p>{{product.location}}</p>
       </div>
       <div class="image">
         <img :src="'/images/products/'+product.image">
       </div>
-      <div class="price">
-        <h2>{{product.price}}</h2>
+      <div class="reward">
+        <h2>{{product.reward}}</h2>
         <button class="auto" v-on:click="addToCart(product)">Add to Cart</button>
       </div>
     </div>
@@ -86,7 +86,7 @@ export default {
 }
 
 
-.price {
+.reward {
   display: flex;
 }
 
