@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="header" v-show="this.$root.$data.cart.length === 0">Quest Log is empty</h1>
+    <h1 class="header" v-show="this.$root.$data.cart.length === 0">You have no quests.</h1>
 
     <div class="wrapper">
       <div class="quests">
