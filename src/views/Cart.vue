@@ -15,7 +15,7 @@
           <div class="reward">
             <h2>{{ quest.reward }}</h2>
             <button class="auto" v-on:click="removeFromCart(quest)">
-              Remove from Quest Log
+              Mark Completed
             </button>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default {
 }
 
 .info {
-  background: green;
+  background: purple;
   color: #000;
   padding: 10px 30px;
   height: 80px;
@@ -103,6 +103,7 @@ export default {
 
 .reward {
   display: flex;
+  font-size: 13px;
 }
 
 button {

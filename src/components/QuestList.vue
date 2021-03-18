@@ -66,7 +66,7 @@ export default {
 }
 
 .info {
-  background: #F2921D;
+  background: #e86523;
   color: #000;
   padding: 10px 30px;
   height: 80px;
@@ -88,6 +88,7 @@ export default {
 
 .reward {
   display: flex;
+  font-size: 13px;
 }
 
 button {

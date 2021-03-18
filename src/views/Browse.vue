@@ -2,10 +2,10 @@
 <div>
   <div class="pure-menu pure-menu-horizontal">
     <ul class="pure-menu-list">
-      <li class="pure-menu-item"><a @click="select('United States')" href="#" class="pure-menu-link">United States</a></li>
-      <li class="pure-menu-item"><a @click="select('Canada')" href="#" class="pure-menu-link">Canada</a></li>
-      <li class="pure-menu-item"><a @click="select('Mexico')" href="#" class="pure-menu-link">Mexico</a></li>
-      <li class="pure-menu-item"><a @click="select('Brazil')" href="#" class="pure-menu-link">Brazil</a></li>
+      <li class="pure-menu-item"><a @click="select('Kalimdor')" href="#" class="pure-menu-link">Kalimdor</a></li>
+      <li class="pure-menu-item"><a @click="select('Eastern Kingdoms')" href="#" class="pure-menu-link">Eastern Kingdoms</a></li>
+      <li class="pure-menu-item"><a @click="select('Northrend')" href="#" class="pure-menu-link">Northrend</a></li>
+      <li class="pure-menu-item"><a @click="select('Pandaria')" href="#" class="pure-menu-link">Pandaria</a></li>
     </ul>
   </div>
   <QuestList :quests="quests" />

@@ -1,144 +1,144 @@
 let mock = [{
     id: 1,
-    name: "Egg Salad",
-    reward: "$5.62",
-    location: "United States",
-    image: 'egg-salad.jpg'
+    name: "To the Skies!",
+    reward: "5 gold",
+    location: "Kalimdor",
+    image: '../to-the-skies.jpg'
   },
   {
     id: 2,
-    name: "Sweet Potato",
-    reward: "$2.41",
-    location: "Brazil",
-    image: "sweet-potato.jpg"
+    name: "Learning the Ropes",
+    reward: "2 gold",
+    location: "Eastern Kingdoms",
+    image: "../learning-the-ropes.jpg"
   },
   {
     id: 3,
-    name: "Foccacia Bread",
-    reward: "$5.92",
-    location: "United States",
-    image: 'focaccia.jpg'
+    name: "Dagger in the Dark",
+    reward: "40 gold",
+    location: "Kalimdor",
+    image: '../dagger-in-the-dark.jpg'
   },
   {
     id: 4,
-    name: "Canned Lotus Rootlets",
-    reward: "$3.58",
-    location: "United States",
-    image: 'lotus-rootlets.jpg'
+    name: "Wild Things",
+    reward: "12 gold",
+    location: "Kalimdor",
+    image: '../wild-things.jpg'
   },
   {
     id: 5,
-    name: "Frilled Toothpicks",
-    reward: "$2.47",
-    location: "Canada",
-    image: 'toothpicks.jpg'
+    name: "Onyx to Goodness",
+    reward: "165 gold",
+    location: "Northrend",
+    image: '../onyx-to-goodness.jpg'
 
   },
   {
     id: 6,
-    name: "Rubbed Sage",
-    reward: "$8.77",
-    location: "Brazil",
-    image: 'sage-rubbed.jpg'
+    name: "A Second Hand",
+    reward: "55 gold",
+    location: "Eastern Kingdoms",
+    image: '../a-second-hand.jpg'
   },
   {
     id: 7,
-    name: "Langers Mango Nectar",
-    reward: "$9.24",
-    location: "Brazil",
-    image: 'mango-nectar.jpg'
+    name: "A Little Kelp from my Foes",
+    reward: "82 gold",
+    location: "Eastern Kingdoms",
+    image: '../little-kelp.jpg'
   },
   {
     id: 8,
-    name: "Cucumber",
-    reward: "$3.02",
-    location: "Canada",
-    image: 'cucumber.jpg'
+    name: "Perserved in Amber",
+    reward: "44 gold",
+    location: "Northrend",
+    image: '../preserved-in-amber.jpg'
   },
   {
     id: 9,
-    name: "Fava Beans",
-    reward: "$4.76",
-    location: "Brazil",
-    image: 'fava-beans.jpg'
+    name: "Last Piece of the Puzzle",
+    reward: "4 gold",
+    location: "Eastern Kingdoms",
+    image: '../last-piece.jpg'
 
   },
   {
     id: 10,
-    name: "Coconut",
-    reward: "$2.50",
-    location: "Brazil",
-    image: 'coconut.jpg'
+    name: "A Witness From History",
+    reward: "2 gold",
+    location: "Eastern Kingdoms",
+    image: '../witness-history.jpg'
   },
   {
     id: 11,
-    name: "Kettle Potato Chips",
-    reward: "$6.70",
-    location: "United States",
-    image: "potato-chips.jpg"
+    name: "Enemies Below",
+    reward: "6 gold",
+    location: "Kalimdor",
+    image: "../enemies-below.jpg"
   },
   {
     id: 12,
-    name: "Flour - Rye",
-    reward: "$1.14",
-    location: "Canada",
-    image: "rye-flour.jpg"
+    name: "Psycho Mantid",
+    reward: "1 gold",
+    location: "Northrend",
+    image: "../psycho-mantid.jpg"
   },
   {
     id: 13,
-    name: "Feta Chees",
-    reward: "$6.92",
-    location: "Brazil",
-    image: "feta-cheese.jpg"
+    name: "The Funky Monkey Brew",
+    reward: "6 gold",
+    location: "Eastern Kingdoms",
+    image: "../funky-monkey.jpg"
   },
   {
     id: 14,
-    name: "Cheddar Cheese",
-    reward: "$5.36",
-    location: "Mexico",
-    image: "cheddar-cheese.jpg"
+    name: "The Kun-Lai Kicker",
+    reward: "5 gold",
+    location: "Pandaria",
+    image: "../the-kun-lai-kicker.jpg"
   },
   {
     id: 15,
     name: "Capers",
-    reward: "$4.18",
-    location: "United States",
-    image: "capers.jpg"
+    reward: "4 gold",
+    location: "Kalimdor",
+    image: "../capers.jpg"
   },
   {
     id: 16,
-    name: "Baguette",
-    reward: "$9.18",
-    location: "Mexico",
-    image: "baguette.jpg"
+    name: "The King and the Council",
+    reward: "92 gold",
+    location: "Pandaria",
+    image: "../king-and-council.jpg"
   },
   {
     id: 17,
-    name: "Lasagna Noodles",
-    reward: "$4.73",
-    location: "Brazil",
-    image: "lasagna-pasta.jpg"
+    name: "The Arena of Annihilation",
+    reward: "47 gold",
+    location: "Eastern Kingdoms",
+    image: "../arena-annihilation.jpg"
   },
   {
     id: 18,
-    name: "Pied De Vents Cheese",
-    reward: "$5.16",
-    location: "Canada",
-    image: "pied-de-vents.jpg"
+    name: "Temple of the White Tiger",
+    reward: "5 gold",
+    location: "Northrend",
+    image: "../temple-white-tiger.jpg"
   },
   {
     id: 19,
-    name: "Sweet Potato Crackers",
-    reward: "$6.81",
-    location: "United States",
-    image: "crackers.jpg"
+    name: "Rolo's Riddle",
+    reward: "81 gold",
+    location: "Kalimdor",
+    image: "../rolos-riddle.jpg"
   },
   {
     id: 20,
-    name: "Mushrooms",
-    reward: "$8.62",
-    location: "United States",
-    image: "mushrooms.jpg"
+    name: "Replenshing the Pantry",
+    reward: "8 gold",
+    location: "Kalimdor",
+    image: "../replenishing-the-pantry.jpg"
   }
 ]
 

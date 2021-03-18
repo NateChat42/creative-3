@@ -15,7 +15,7 @@
       </router-link>
       <router-link to="/cart">
         <div class="menu-item">
-          <img src="/images/love.png">
+          <img src="/images/quest.png">
           <p>{{cartSize}} quests</p>
         </div>
       </router-link>
@@ -47,7 +47,7 @@ export default {
 
 body {
   margin: 50px 100px;
-
+  background: #3a3939;
 }
 
 #menu {
@@ -69,7 +69,7 @@ body {
 }
 
 #brand img {
-  height: 200px;
+  height: 300px;
 }
 
 #side {
