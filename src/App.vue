@@ -7,10 +7,10 @@
       </router-link>
     </div>
     <div id="side">
-      <router-link to="/browse">
-        <div class="menu-item browse">
-          <img src="/images/globe.png">
-          <p>Browse</p>
+      <router-link to="/addquest">
+        <div class="menu-item plus">
+          <img class="plus-img" src="/images/plus-removebg-preview.png">
+          <p>Manage Quests</p>
         </div>
       </router-link>
       <router-link to="/cart">
@@ -94,4 +94,13 @@ body {
 .browse {
   margin-right: 50px;
 }
+
+.plus {
+  margin-right: 50px;
+}
+
+.plus-img {
+  margin-left: 30px;
+}
+
 </style>

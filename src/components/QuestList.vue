@@ -4,10 +4,8 @@
     <div class="quest" v-for="quest in quests" :key="quest.id">
       <div class="info">
         <h1>{{quest.name}}</h1>
-        <p>{{quest.location}}</p>
-      </div>
-      <div class="image">
-        <img :src="'/images/quests/'+quest.image">
+        <h3>{{quest.location}}</h3>
+        <p>{{quest.description}}</p>
       </div>
       <div class="reward">
         <h2>{{quest.reward}}</h2>
@@ -37,6 +35,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .quests {
@@ -52,24 +51,11 @@ export default {
   width: 200px;
 }
 
-.quest img {
-  border: 2px solid #333;
-  height: 250px;
-  width: 200px;
-  object-fit: cover;
-}
-
-.quest .image {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5px;
-}
-
 .info {
   background: #e86523;
   color: #000;
   padding: 10px 30px;
-  height: 80px;
+  min-height: 100px;
 }
 
 .info h1 {
@@ -78,6 +64,10 @@ export default {
 
 .info h2 {
   font-size: 14px;
+}
+
+.info h3 {
+  font-size: 12px;
 }
 
 .info p {
@@ -89,6 +79,10 @@ export default {
 .reward {
   display: flex;
   font-size: 13px;
+}
+
+.reward h2 {
+  color: yellow;
 }
 
 button {
